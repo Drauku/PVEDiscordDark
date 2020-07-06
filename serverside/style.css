@@ -272,8 +272,8 @@ color:#fff;
 background-color:#677bc4;
 }
 
-.x-btn.x-unselectable.x-box-item.x-toolbar-item.x-btn-default-toolbar-small.x-btn-focus {
-background-color:#401314;
+.x-btn-focus.x-btn-default-toolbar-small {
+background-color: #401314; 
 }
 
 .x-btn.x-unselectable.x-box-item.x-btn-default-small.x-btn-over {
