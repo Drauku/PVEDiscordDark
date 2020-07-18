@@ -12,10 +12,13 @@ You can check the 'previews' folder in the repo to check out how some stuff look
 
 **Server-side Installation:**
 1. Enter your PVE **node** shell..
-2. ```wget https://raw.githubusercontent.com/Weilbyte/PVEDiscordDark/master/serverside/ddInstall.sh```
-3. Run ```ddInstall.sh``` with root/sudo.
-4. Follow instructions given. 
-5. Done! 
+2. Ensure you are connected to the internet and can access Github.
+3. Run this bash command as root/sudo:
+   
+   ```wget https://raw.githubusercontent.com/Drauku/PVEDiscordDark/master/serverside/ddInstall.sh && chmod +x ddInstall.sh && bash ddInstall.sh```
+4. <del>Run ```ddInstall.sh``` with root/sudo.</del>
+5. <del>Follow instructions given. </del>
+6. Done! 
 
 **If you want the charts/gauges and other elements to be dark mode too please look [here.](https://github.com/Weilbyte/PVEDiscordDark/tree/master/serverside/jsmod)**
 

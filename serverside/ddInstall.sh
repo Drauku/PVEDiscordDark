@@ -8,11 +8,9 @@ DotSay () {
     printf "[\e[1;34m*\e[0m] \e[1;34m $1  \e[0m \n"; 
 }
 
-
 Say '[PVE Discord Dark UI Theme Installer]'
 Say 'Internet connection required to download files'
-Say '>Press any key to begin installation'
-read -p ""
+if [[ $1 != "-noprompt" || $1 != "-np" ]]; read -p '>Press any key to begin installation'; fi
 Say ' '
 DotSay 'Backing up index template file'
 cp /usr/share/pve-manager/index.html.tpl /usr/share/pve-manager/index.html.tpl.bak 
